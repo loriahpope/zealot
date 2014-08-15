@@ -1,0 +1,363 @@
+html{
+	overflow: hidden;
+}
+
+body {
+  background-color: rgba(56, 180, 139, 0.5);
+  min-width: 950px;
+  font-family: verdana;
+  font-family: verdana;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 17px;
+  position: relative;
+  top: -29px;
+}
+
+h3 {
+  font-size: 12px;
+  margin: 0;
+}
+
+h4 {
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+  float: left;
+  color: #38B48B;
+}
+
+ul, li{
+	display: inline-block;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 0px 30px;
+  border: 3px double #38B48B;
+  padding: 5px;
+  font-size: 13;
+}
+
+p {
+  margin: 0;
+}
+
+//LOGO
+	.logo{
+		position: absolute;
+		z-index: 1;
+		left: 12%;
+		width: 240px;
+		top: 38px;
+	}
+
+	.logo img{
+		max-width:100%;
+	}
+
+//HEADER
+	.header{
+	position: absolute;
+	z-index: 1;
+	left: 107px;
+	top: 40px;
+}
+
+//SECTIONS: ABOUT, SKILLS, EXPERIENCE, LEADERSHIP, CONTACT
+	#about, #skills, #experience, #contact, #leadership {
+	  border: 5px dashed #38B48B;
+	  border-radius: 40px;
+	  background-color: rgba(255, 255, 255, 0.95);
+	}
+
+	#skills{
+	  height: 50%;
+	}
+
+	#experience, #leadership {
+	  width: 34%;
+	  position: absolute;
+	  top: 272px;
+	  margin-left: 10%;
+	  float: left;
+	  height: 63%;
+	}
+
+	#experience ul, #leadership ul {
+	    position: relative;
+		top: 14px;
+		width: 95%;
+		left: 3%;
+	}
+
+	#experience div li, #leadership div li{
+		font-size: 10px;
+		padding: 0px;
+		margin: 0px;
+		display: list-item;
+		list-style-position: inside;
+		list-style-type: circle;
+		border: none;
+	}
+
+	#experience li, #leadership li{
+		border: none;
+	}
+
+	#experience h2, #leadership h2 {
+	  text-align: center;
+	  margin: 0;
+	  padding: 0;
+	  top: 10px;
+	}
+
+	.left a, .right a, .xpLeft a, .xpRight a {
+	  text-decoration: none;
+	  color: inherit;
+	}
+
+	.left a:hover, .right a:hover, .xpLeft a:hover, .xpRight a:hover {
+	  color: #38B48B;
+	}
+
+	.VS, .OA, .PDS, .MVP, .Rush, .FR, .VLI{
+		border-top: 1px solid #38B48B;
+	}
+
+	//ABOUT SECTION
+		#about {
+		  width: 80%;
+		  height: 20%;
+		  position: relative;
+		  top: 50px;
+		  margin: 0 auto;
+		  text-align: center;
+		}
+		//ALL DIVS IN ABOUT SECTION
+			#about div {
+				text-transform: uppercase;
+				font-family: verdana;
+				font-size: 13px;
+				line-height: 18px;
+				position: relative;
+				top: 20%;
+				width: 79%;
+				left: 166px;
+			}
+			#about div b {
+			  color: #38B48B;
+			}
+
+	//SKILLS
+		#skills {
+		  width: 40%;
+		  position: relative;
+		  top: 100px;
+		  margin-right: 10%;
+		  float: right;
+		  text-align: center;
+		}
+
+		//RAPHAEL SKILLS
+			#raphaelSkills {
+			  margin: 0% 4%;
+			  max-width: 100%;
+			  height: 82%;
+			}
+
+		//DIVIDER BETWEEN CHART AND ADDITIONAL SKILLS
+			.divider {
+			  width: 80%;
+			  border-top: 2px dashed;
+			  margin: 0 auto;
+			  position: relative;
+			  top: -6%;
+			}
+
+		//DISPLAY SCREENS FOR ADDITIONAL SKILLS
+			.display1{
+				display: block
+			}
+
+			.display2{
+				display: none;
+			}
+
+			.display3{
+				display: none;
+			}
+
+			//KNOWN AND LEARNING SKILLS
+				.learning, .known {
+				  position: relative;
+				  top: -30px;
+				}
+
+				.known li {
+				  margin: 0px 10px;
+				}
+
+			//SKILLS NAVIGATION ARROWS
+				.left, .right {
+				  position: absolute;
+				  top: 342px;
+				  font-size: 29px;
+				}
+
+				.left {
+				  left: 12%;
+				}
+
+				.right {
+				  left: 85%;
+				}
+
+			//SKILLS BUTTONS
+				.buttons{
+					position: relative;
+					top: -33px;
+				}
+
+				.buttons div {
+					width: 5px;
+					height: 5px;
+					background-color: #000;
+					display: inline-block;
+					border-radius: 5px;
+					margin: 0px 4px;
+				}
+
+	//EXPERIENCE
+
+		#experience div {
+		    padding: 5px 0px;
+		}
+
+		.tasks{
+			top: 0px !important;
+			width: 100% !important;
+			left: 0% !important;
+		}
+
+		//INDIVIDUAL WORK EXPERIENCE ITEMS
+			.RA {
+			    border-top: none;
+			}
+
+		//STYLING FOR TRANSITIONS
+			.hide{
+				display: none !important;
+			}
+
+			.show{
+				display: block !important;
+			}
+
+			//EXPERIENCE ARROWS
+
+				.xpLeft{
+					position: absolute;
+					left: 43%;
+					top: 0%;
+					z-index: 5;
+				}
+
+				.xpRight{
+					position: absolute;
+					left: 11.5%;
+					top: 0%;
+					z-index: 5;
+				}
+
+				.xpLeft a, .xpRight a {
+				  position: absolute;
+				  top: 500px;
+				  font-size: 29px;
+				}
+
+			//EXPERIENCE BUTTONS
+				.xpButtons{
+					position: relative;
+					top: 72%;
+					z-index: 5;
+					left: 27%;
+				}
+
+				.xpButtons div{
+					width: 5px;
+					height: 5px;
+					background-color: #000;
+					display: inline-block;
+					border-radius: 5px;
+					margin: 0px 4px;
+				}
+
+				.xpButtons div{
+					padding: 0px;
+				}
+
+				.xpButton1{
+					height: 5px;
+				}
+
+				.xpButton2{
+					height: 5px;
+				}
+
+	//LEADERSHIP
+
+	#leadership{
+		display: none;
+	}
+
+	#leadership h4 {
+	    padding-bottom: 2px;
+	}
+
+	#leadership .tasks li {
+	    font-size: 10px;
+	    margin: 0px;
+	    padding: 0px;
+	    display: list-item;
+	    list-style-position: inside;
+	    padding-bottom: 3px;
+	}
+
+	//CONTACT
+		#contact {
+		  width: 40%;
+		  position: relative;
+		  top: 120px;
+		  margin-right: 10%;
+		  float: right;
+		  text-align: center;
+		  height: 10%;
+		  border-radius: 27px;
+		}
+
+		#contact a img {
+		  padding: 3px 28px;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,384 @@
+/* line 1, resume.scss */
+html {
+  overflow: hidden;
+}
+
+/* line 5, resume.scss */
+body {
+  background-color: rgba(56, 180, 139, 0.5);
+  min-width: 950px;
+  font-family: verdana;
+  font-family: verdana;
+}
+
+/* line 12, resume.scss */
+h2 {
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 17px;
+  position: relative;
+  top: -29px;
+}
+
+/* line 20, resume.scss */
+h3 {
+  font-size: 12px;
+  margin: 0;
+}
+
+/* line 25, resume.scss */
+h4 {
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+  float: left;
+  color: #38B48B;
+}
+
+/* line 33, resume.scss */
+ul, li {
+  display: inline-block;
+}
+
+/* line 37, resume.scss */
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 42, resume.scss */
+li {
+  margin: 0px 30px;
+  border: 3px double #38B48B;
+  padding: 5px;
+  font-size: 13;
+}
+
+/* line 49, resume.scss */
+p {
+  margin: 0;
+}
+
+/* line 54, resume.scss */
+.logo {
+  position: absolute;
+  z-index: 1;
+  left: 12%;
+  width: 240px;
+  top: 38px;
+}
+
+/* line 62, resume.scss */
+.logo img {
+  max-width: 100%;
+}
+
+/* line 67, resume.scss */
+.header {
+  position: absolute;
+  z-index: 1;
+  left: 107px;
+  top: 40px;
+}
+
+/* line 75, resume.scss */
+#about, #skills, #experience, #contact, #leadership {
+  border: 5px dashed #38B48B;
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+/* line 81, resume.scss */
+#skills {
+  height: 50%;
+}
+
+/* line 85, resume.scss */
+#experience, #leadership {
+  width: 34%;
+  position: absolute;
+  top: 272px;
+  margin-left: 10%;
+  float: left;
+  height: 63%;
+}
+
+/* line 94, resume.scss */
+#experience ul, #leadership ul {
+  position: relative;
+  top: 14px;
+  width: 95%;
+  left: 3%;
+}
+
+/* line 101, resume.scss */
+#experience div li, #leadership div li {
+  font-size: 10px;
+  padding: 0px;
+  margin: 0px;
+  display: list-item;
+  list-style-position: inside;
+  list-style-type: circle;
+  border: none;
+}
+
+/* line 111, resume.scss */
+#experience li, #leadership li {
+  border: none;
+}
+
+/* line 115, resume.scss */
+#experience h2, #leadership h2 {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  top: 10px;
+}
+
+/* line 122, resume.scss */
+.left a, .right a, .xpLeft a, .xpRight a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* line 127, resume.scss */
+.left a:hover, .right a:hover, .xpLeft a:hover, .xpRight a:hover {
+  color: #38B48B;
+}
+
+/* line 131, resume.scss */
+.VS, .OA, .PDS, .MVP, .Rush, .FR, .VLI {
+  border-top: 1px solid #38B48B;
+}
+
+/* line 136, resume.scss */
+#about {
+  width: 80%;
+  height: 20%;
+  position: relative;
+  top: 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 145, resume.scss */
+#about div {
+  text-transform: uppercase;
+  font-family: verdana;
+  font-size: 13px;
+  line-height: 18px;
+  position: relative;
+  top: 20%;
+  width: 79%;
+  left: 166px;
+}
+
+/* line 155, resume.scss */
+#about div b {
+  color: #38B48B;
+}
+
+/* line 160, resume.scss */
+#skills {
+  width: 40%;
+  position: relative;
+  top: 100px;
+  margin-right: 10%;
+  float: right;
+  text-align: center;
+}
+
+/* line 170, resume.scss */
+#raphaelSkills {
+  margin: 0% 4%;
+  max-width: 100%;
+  height: 82%;
+}
+
+/* line 177, resume.scss */
+.divider {
+  width: 80%;
+  border-top: 2px dashed;
+  margin: 0 auto;
+  position: relative;
+  top: -6%;
+}
+
+/* line 186, resume.scss */
+.display1 {
+  display: block;
+}
+
+/* line 190, resume.scss */
+.display2 {
+  display: none;
+}
+
+/* line 194, resume.scss */
+.display3 {
+  display: none;
+}
+
+/* line 199, resume.scss */
+.learning, .known {
+  position: relative;
+  top: -30px;
+}
+
+/* line 204, resume.scss */
+.known li {
+  margin: 0px 10px;
+}
+
+/* line 209, resume.scss */
+.left, .right {
+  position: absolute;
+  top: 342px;
+  font-size: 29px;
+}
+
+/* line 215, resume.scss */
+.left {
+  left: 12%;
+}
+
+/* line 219, resume.scss */
+.right {
+  left: 85%;
+}
+
+/* line 224, resume.scss */
+.buttons {
+  position: relative;
+  top: -33px;
+}
+
+/* line 229, resume.scss */
+.buttons div {
+  width: 5px;
+  height: 5px;
+  background-color: #000;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 0px 4px;
+}
+
+/* line 240, resume.scss */
+#experience div {
+  padding: 5px 0px;
+}
+
+/* line 244, resume.scss */
+.tasks {
+  top: 0px !important;
+  width: 100% !important;
+  left: 0% !important;
+}
+
+/* line 251, resume.scss */
+.RA {
+  border-top: none;
+}
+
+/* line 256, resume.scss */
+.hide {
+  display: none !important;
+}
+
+/* line 260, resume.scss */
+.show {
+  display: block !important;
+}
+
+/* line 266, resume.scss */
+.xpLeft {
+  position: absolute;
+  left: 43%;
+  top: 0%;
+  z-index: 5;
+}
+
+/* line 273, resume.scss */
+.xpRight {
+  position: absolute;
+  left: 11.5%;
+  top: 0%;
+  z-index: 5;
+}
+
+/* line 280, resume.scss */
+.xpLeft a, .xpRight a {
+  position: absolute;
+  top: 500px;
+  font-size: 29px;
+}
+
+/* line 287, resume.scss */
+.xpButtons {
+  position: relative;
+  top: 72%;
+  z-index: 5;
+  left: 27%;
+}
+
+/* line 294, resume.scss */
+.xpButtons div {
+  width: 5px;
+  height: 5px;
+  background-color: #000;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 0px 4px;
+}
+
+/* line 303, resume.scss */
+.xpButtons div {
+  padding: 0px;
+}
+
+/* line 307, resume.scss */
+.xpButton1 {
+  height: 5px;
+}
+
+/* line 311, resume.scss */
+.xpButton2 {
+  height: 5px;
+}
+
+/* line 317, resume.scss */
+#leadership {
+  display: none;
+}
+
+/* line 321, resume.scss */
+#leadership h4 {
+  padding-bottom: 2px;
+}
+
+/* line 325, resume.scss */
+#leadership .tasks li {
+  font-size: 10px;
+  margin: 0px;
+  padding: 0px;
+  display: list-item;
+  list-style-position: inside;
+  padding-bottom: 3px;
+}
+
+/* line 335, resume.scss */
+#contact {
+  width: 40%;
+  position: relative;
+  top: 120px;
+  margin-right: 10%;
+  float: right;
+  text-align: center;
+  height: 10%;
+  border-radius: 27px;
+}
+
+/* line 346, resume.scss */
+#contact a img {
+  padding: 3px 28px;
+}
