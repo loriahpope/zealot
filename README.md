@@ -16,13 +16,13 @@ It starts with a window.onload function, so that when the page loads for the fir
 
 **var p**: creates a "paper" object that will contain all of the Raphael objects
 
-I created the paper where all of the skills would go, and then added all of the bars to show my skills. They are all rectangle objects with four parameters: x coordinate, y coordinate, width, and height. 
-They all received the same initial attributes: a light grey fill with no stroke and an initial width of 5. 
-They also received the same animations: a width, text (which I may actually delete later becuase I don't think it's doing anything), and a final minty green fill. These animations will last for 3000 milliseconds, or 3 seconds, meaning it will take 3 seconds to complete. The animation type is "bounce". 
-They then recieved a descriptive text, with parameters of x coordinate, y coordinate, and text.
+1. I created the paper where all of the skills would go, and then added all of the bars to show my skills. They are all rectangle objects with four parameters: x coordinate, y coordinate, width, and height. 
+2. They all received the same initial attributes: a light grey fill with no stroke and an initial width of 5. 
+3. They also received the same animations: a width, text (which I may actually delete later becuase I don't think it's doing anything), and a final minty green fill. These animations will last for 3000 milliseconds, or 3 seconds, meaning it will take 3 seconds to complete. The animation type is "bounce". 
+4. They then recieved a descriptive text, with parameters of x coordinate, y coordinate, and text.
 
 ####Javascript/JQuery
-This part is pretty straightforward, and I'll find a better way to implement it in the future. The remainder of js/resume.js will contain the functionality of the left and right click actions in the Work, Leadership, and Additional Skills/Currently Learning sections. 
+This part is pretty straightforward, and I'll find a better way to implement it in the future. The remainder of **js/resume.js** will contain the functionality of the left and right click actions in the Work, Leadership, and Additional Skills/Currently Learning sections. 
 
 1. When you click on the right arrow, given a class of '.right', we run e.preventDefault(), which stops the default functionality of the a tag (going to a new page.)
 2. The one I wanted showing initially was given a display of block in my SCSS file, and the ones I wanted hidden were given a display of none initially. This allows me to run the next check, **$('.script div:visible').addClass('show')**, where I add a class of show to the initially displayed div. 
